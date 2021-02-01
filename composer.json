@@ -1,7 +1,8 @@
 {
-    "name": "php-amqplib/php-amqplib",
+    "name": "lesh/php-amqplib",
     "replace": {
-        "videlalvaro/php-amqplib": "self.version"
+        "videlalvaro/php-amqplib": "self.version",
+        "php-amqplib/php-amqplib": "self.version"
     },
     "type": "library",
     "description": "Formerly videlalvaro/php-amqplib.  This library is a pure PHP implementation of the AMQP protocol. It's been tested against RabbitMQ.",
@@ -29,7 +30,7 @@
         }
     ],
     "require": {
-        "php": ">=5.6.3",
+        "php": ">=7.1",
         "ext-sockets": "*",
         "ext-mbstring": "*",
         "phpseclib/phpseclib": "^2.0.0"
